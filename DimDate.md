@@ -6,20 +6,14 @@ Documentation:
 https://learn.microsoft.com/es-es/power-bi/guidance/model-date-tables
 
 
-### OPTION 1
+### OPTION 1 - Débutant
 ```
 DimDate = CALENDAR("1/1/2013",TODAY())
 ```
 ![image](https://github.com/Cristianfllc3/Power_BI_DAX_101/assets/72107370/ddfcd45d-b79e-43ad-9fe3-fe490d34b5d8)
 
 
-### OPTION 2
-```
-DimDate = CALENDAR("1/1/2013",TODAY())
-```
-
-
-### OPTION 3
+### OPTION 2 - Intermédiaire
 ```
 DimDate = 
 VAR _minYear = YEAR(MIN(DimEmployee[HireDate]))
@@ -69,3 +63,8 @@ ADDCOLUMNS(
 
 ![image](https://github.com/Cristianfllc3/Power_BI_DAX_101/assets/72107370/fa14c3bf-1b5f-4596-a3fa-1b567e6e8336)
 
+### OPTION 3 - Ninja
+```
+All in One: Script to Create Date Dimension in Power BI using Power Query
+https://radacad.com/all-in-one-script-to-create-date-dimension-in-power-bi-using-power-query
+```
