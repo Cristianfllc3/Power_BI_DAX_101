@@ -2,6 +2,9 @@ La création d'une dimension Date est un besoin fondamental (sauf dans les cas o
 
 Pour la création de la table DimDate, il y a n variations qui peuvent être faites dans DAX pour créer la nouvelle table, j'attache 3 options avec différents niveaux de complexité compte tenu du besoin et de la complexité du projet.
 
+Documentation:
+https://learn.microsoft.com/es-es/power-bi/guidance/model-date-tables
+
 
 ### OPTION 1
 ```
