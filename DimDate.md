@@ -68,3 +68,6 @@ ADDCOLUMNS(
 All in One: Script to Create Date Dimension in Power BI using Power Query
 https://radacad.com/all-in-one-script-to-create-date-dimension-in-power-bi-using-power-query
 ```
+
+![image](https://github.com/Cristianfllc3/Power_BI_DAX_101/assets/72107370/fe7d21ea-4f94-46f1-8900-ac87bc0c9894)
+
